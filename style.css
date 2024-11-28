@@ -134,20 +134,38 @@
     margin-top: 10px;
     border-radius: 6px;
     border: 1px solid #8692A6;
+    margin-bottom: 30px;
    
 }
 .input2{
     height: 40px;
-    width: 300px;
-    padding: 0px 27px;
-    margin-top: 10px;
+    width: 150px;
+    padding: 0px 6.2rem;
+    margin-bottom: 30px;
     border-radius: 6px;
     border: 2px solid #1565D8; 
     box-shadow: 0px 0px 5px 0px;
+    
+}
+.fream1{
+    position: relative;
+    top: 33px;
+    margin-left: 19px;
+
+}
+.imgframe{
+    width: 12px;
+    height: 10px;
+}
+.number{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8692A6;
 }
 .show{
    position: relative;
-   right: 4rem;
+   right: 3rem;
+   top: 5px;
    color: #000000;
    font-size: 12px;
    font-weight: 400;
@@ -175,20 +193,7 @@
     cursor: pointer;
    
 }
-.btn2{
-    background-color: #FFFFFF;
-    color: #FFFFFF;
-    height: 40px;
-    width: 360px;
-    margin-top: 30px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    border: 1px solid #FFFFFF;
-    border-radius: 6px;
-    box-shadow: 0px 0px 5px 0px;
-}
+
 .flatimg{
    position: relative;
    right: 70px;
@@ -201,8 +206,30 @@
     justify-content: center;
     align-items: center;
    position: relative;
-   top: 25px;
+   bottom: 20px;
    border-bottom: 1px solid #F5F5F5;
    color: #BABABA;
   
+}
+.yoursefely{
+    color:#8692A6;
+    font-size: 12px;
+    font-weight: 400;
+}
+.containerA{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+.lockimg{
+    height: 14px;
+    width: 14px;
+}
+.fream1{
+    display: flex;
+  align-items: center;
+  gap: 5px;
 }
