@@ -1,0 +1,15 @@
+@media (max-width: 27rem) {
+    .container{
+       
+       flex-direction: column;
+       align-items: center;
+       padding-left: 15rem;
+      
+    }
+        
+}
+@media (max-width: 20rem) {
+    .container{
+        padding-left: 20rem;
+    }
+}
